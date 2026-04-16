@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Madhu's App</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #6dd5ed, #2193b0);
+      color: white;
+      text-align: center;
+    }
+    .container {
+      margin-top: 20%;
+    }
+    h1 {
+      font-size: 3rem;
+    }
+    p {
+      font-size: 1.2rem;
+    }
+    button {
+      padding: 10px 20px;
+      border: none;
+      background: white;
+      color: #2193b0;
+      font-size: 1rem;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    button:hover {
+      background: #f1f1f1;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>🚀 Hello from Madhu!</h1>
+    <p>Deployed using Terraform + AWS EKS + Kubernetes</p>
+    <button onclick="showMessage()">Click Me</button>
+  </div>
+
+  <script>
+    function showMessage() {
+      alert("Your app is running inside Kubernetes 🎉");
+    }
+  </script>
+</body>
+</html>
